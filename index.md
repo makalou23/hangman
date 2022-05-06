@@ -63,19 +63,8 @@ button:hover {
   color: #ffa600;
 }
             </style>
-<body>
-    <div class="wrapper">
-        <h1>Stopwatch</h1>
-        <h2>Vanilla JavaScript Stopwatch</h2>
-        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
-        <button id="button-start">Start</button>
-        <button id="button-stop">Stop</button>
-        <button id="button-reset">Reset</button>
-        </div>  
-</body>
-</html>
-
-<script>
+    
+    <script>
         window.onload = function () {
   
   var seconds = 0; 
@@ -137,5 +126,18 @@ button:hover {
 
 };
         </script>
+<body>
+    <div class="wrapper">
+        <h1>Stopwatch</h1>
+        <h2>Vanilla JavaScript Stopwatch</h2>
+        <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+        <button id="button-start">Start</button>
+        <button id="button-stop">Stop</button>
+        <button id="button-reset">Reset</button>
+        </div>  
+</body>
+</html>
+
+
 
 
