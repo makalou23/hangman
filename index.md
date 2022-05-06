@@ -7,63 +7,6 @@
     <title>Document</title>
     <link href="/css/main.css" rel="stylesheet" type ="text/css">
     <link href="/css/main.js" rel="stylesheet" type="text/css">
-</head>
-    
-        
-        <style>
-            body {
-  background: #ffa600;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  height: 100%;
-}
-
-.wrapper {
-  width: 800px;
-  margin: 30px auto;
-  color: #fff;
-  text-align: center;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-  font-size: 2.6em;
-  text-transform: uppercase;
-}
-
-#seconds,
-#tens {
-  font-size: 2em;
-}
-
-button {
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  -khtml-border-radius: 5px;
-  background: #ffa600;
-  color: #fff;
-  border: solid 1px #fff;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 18px 10px;
-  width: 180px;
-  margin: 10px;
-  outline: none;
-}
-button:hover {
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  background: #fff;
-  border: solid 1px #fff;
-  color: #ffa600;
-}
-            </style>
-    
     <script>
         window.onload = function () {
   
@@ -126,6 +69,64 @@ button:hover {
 
 };
         </script>
+</head>
+      
+    
+        
+        <style>
+            body {
+  background: #ffa600;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  height: 100%;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 30px auto;
+  color: #fff;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 2.6em;
+  text-transform: uppercase;
+}
+
+#seconds,
+#tens {
+  font-size: 2em;
+}
+
+button {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  background: #ffa600;
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  outline: none;
+}
+button:hover {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #ffa600;
+}
+            </style>
+  
 <body>
     <div class="wrapper">
         <h1>Stopwatch</h1>
