@@ -7,6 +7,9 @@
     <title>Document</title>
     <link href="/css/main.css" rel="stylesheet" type ="text/css">
     <link href="/css/main.js" rel="stylesheet" type="text/css">
+    
+</head>
+      
     <script>
         window.onload = function () {
   
@@ -69,9 +72,6 @@
 
 };
         </script>
-</head>
-      
-    
         
         <style>
             body {
